@@ -88,9 +88,10 @@ textAlign: "center",
       padding: "10px 12px",
       borderRadius: 12,
       border: "1px solid #E5E7EB",
-      minHeight: 110,
+      minHeight: 70,
       marginBottom: 12,
       font: "inherit",
+      fontSize: 12
       resize: "vertical",
     }}
   />
