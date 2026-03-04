@@ -33,7 +33,7 @@ textAlign: "center",
       </h1>
 
       <p style={{ margin: "16px 0 0" }}>
-        Comnig Soon.
+        Coming Soon.
       </p>
     </main>
   );
