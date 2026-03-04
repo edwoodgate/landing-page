@@ -11,7 +11,7 @@ export default function Home() {
         flexDirection: "column",
         justifyContent: "center",
         padding: "48px 24px",
-        maxWidth: 960,
+        maxWidth: "100%",
         margin: "0 auto",
         background: "linear-gradient(to bottom, #2B2F38 0%, #2B2F38 50%, #FFFFFF 50%, #FFFFFF 100%)",
         color: "#000000",
