@@ -29,10 +29,11 @@ textAlign: "center",
         className={cinzel.className}
         style={{ fontSize: 36, fontWeight: 400, margin: 0 }}
       >
-        Redgum Capital Partners
+        Redgum Capital<br />
+  <span style={{ display: "inline-block", paddingLeft: 24 }}>Partners</span>
       </h1>
 
-      <p style={{ margin: "48px 0 0" }}>
+      <p style={{ margin: "96px 0 0" }}>
         Coming Soon.
       </p>
     </main>
