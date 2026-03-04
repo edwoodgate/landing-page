@@ -22,15 +22,27 @@ export default function Home() {
         fontSize: 18,
         lineHeight: 1.5,
         alignItems: "center",
-textAlign: "center",
+        textAlign: "center",
       }}
     >
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            name: "Redgum Capital Partners",
+            url: "https://www.redgumcapital.com",
+            email: "enquiries@redgumcapital.com",
+          }),
+        }}
+      />
       <h1
         className={cinzel.className}
         style={{ fontSize: 36, fontWeight: 400, margin: 0, color: "#FFFFFF"  }}
       >
-        Redgum Capital<br />
-  <span style={{ display: "inline-block", paddingLeft: 24 }}>Partners</span>
+          Redgum Capital<br />
+        <span style={{ display: "inline-block", paddingLeft: 24 }}>Partners</span>
       </h1>
 
       <p style={{ margin: "124px 0 0" }}>
@@ -38,86 +50,86 @@ textAlign: "center",
       </p>
 
       <form
-  action="/api/enquiry"
-  method="POST"
-  style={{
-    marginTop: 28,
-    width: "100%",
-    maxWidth: 400,
-    background: "#FFFFFF",
-    borderRadius: 16,
-    padding: 16,
-    boxShadow: "0 8px 24px rgba(0,0,0,0.12)",
-  }}
->
-  <input
-    name="name"
-    placeholder="Name"
-    required
-    style={{
-      width: "100%",
-      padding: "10px 12px",
-      borderRadius: 12,
-      border: "1px solid #E5E7EB",
-      marginBottom: 10,
-      font: "inherit",
-      fontSize: 13,
-    }}
-  />
-
-  <input
-    name="email"
-    placeholder="Email"
-    type="email"
-    required
-    style={{
-      width: "100%",
-      padding: "10px 12px",
-      borderRadius: 12,
-      border: "1px solid #E5E7EB",
-      marginBottom: 10,
-      font: "inherit",
-      fontSize: 13,
-    }}
-  />
-
-  <textarea
-    name="message"
-    placeholder="Message"
-    required
-    style={{
-      width: "100%",
-      padding: "10px 12px",
-      borderRadius: 12,
-      border: "1px solid #E5E7EB",
-      minHeight: 70,
-      marginBottom: 12,
-      font: "inherit",
-      fontSize: 13,
-      resize: "vertical",
-    }}
-  />
-
-  {/* Honeypot (hidden) */}
-  <input name="company" style={{ display: "none" }} tabIndex={-1} autoComplete="off" />
-
-  <button
-    type="submit"
-    style={{
-      width: "100%",
-      padding: "10px 12px",
-      borderRadius: 12,
-      border: "none",
-      background: "#2B2F38",
-      color: "#FFFFFF",
-      fontWeight: 600,
-      cursor: "pointer",
-      fontSize: 13,
-    }}
-  >
-    Send enquiry
-  </button>
-</form>
+          action="/api/enquiry"
+          method="POST"
+          style={{
+            marginTop: 28,
+            width: "100%",
+            maxWidth: 400,
+            background: "#FFFFFF",
+            borderRadius: 16,
+            padding: 16,
+            boxShadow: "0 8px 24px rgba(0,0,0,0.12)",
+          }}
+        >
+          <input
+            name="name"
+            placeholder="Name"
+            required
+            style={{
+              width: "100%",
+              padding: "10px 12px",
+              borderRadius: 12,
+              border: "1px solid #E5E7EB",
+              marginBottom: 10,
+              font: "inherit",
+              fontSize: 13,
+            }}
+          />
+        
+          <input
+            name="email"
+            placeholder="Email"
+            type="email"
+            required
+            style={{
+              width: "100%",
+              padding: "10px 12px",
+              borderRadius: 12,
+              border: "1px solid #E5E7EB",
+              marginBottom: 10,
+              font: "inherit",
+              fontSize: 13,
+            }}
+          />
+        
+          <textarea
+            name="message"
+            placeholder="Message"
+            required
+            style={{
+              width: "100%",
+              padding: "10px 12px",
+              borderRadius: 12,
+              border: "1px solid #E5E7EB",
+              minHeight: 70,
+              marginBottom: 12,
+              font: "inherit",
+              fontSize: 13,
+              resize: "vertical",
+            }}
+          />
+        
+          {/* Honeypot (hidden) */}
+          <input name="company" style={{ display: "none" }} tabIndex={-1} autoComplete="off" />
+        
+          <button
+            type="submit"
+            style={{
+              width: "100%",
+              padding: "10px 12px",
+              borderRadius: 12,
+              border: "none",
+              background: "#2B2F38",
+              color: "#FFFFFF",
+              fontWeight: 600,
+              cursor: "pointer",
+              fontSize: 13,
+            }}
+          >
+            Send enquiry
+          </button>
+        </form>
 
     </main>
   );
