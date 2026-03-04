@@ -61,6 +61,7 @@ textAlign: "center",
       border: "1px solid #E5E7EB",
       marginBottom: 10,
       font: "inherit",
+      fontSize: 13,
     }}
   />
 
@@ -76,6 +77,7 @@ textAlign: "center",
       border: "1px solid #E5E7EB",
       marginBottom: 10,
       font: "inherit",
+      fontSize: 13,
     }}
   />
 
@@ -91,7 +93,7 @@ textAlign: "center",
       minHeight: 70,
       marginBottom: 12,
       font: "inherit",
-      fontSize: 12,
+      fontSize: 13,
       resize: "vertical",
     }}
   />
@@ -110,6 +112,7 @@ textAlign: "center",
       color: "#FFFFFF",
       fontWeight: 600,
       cursor: "pointer",
+      fontSize: 13,
     }}
   >
     Send enquiry
