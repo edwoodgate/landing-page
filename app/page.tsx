@@ -14,7 +14,7 @@ export default function Home() {
         paddingTop: "120px",
         maxWidth: "100%",
         margin: "0 auto",
-        background: "linear-gradient(to bottom, #2B2F38 0%, #2B2F38 50%, #FFFFFF 50%, #FFFFFF 100%)",
+        background: "linear-gradient(to bottom, #2B2F38 0%, #2B2F38 40%, #FFFFFF 40%, #FFFFFF 100%)",
         color: "#000000",
         fontFamily:
           '"Segoe UI Variable Display", "Segoe UI", system-ui, -apple-system, Arial, sans-serif',
