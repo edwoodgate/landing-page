@@ -43,7 +43,7 @@ textAlign: "center",
   style={{
     marginTop: 28,
     width: "100%",
-    maxWidth: 520,
+    maxWidth: 400,
     background: "#FFFFFF",
     borderRadius: 16,
     padding: 16,
