@@ -33,8 +33,8 @@ textAlign: "center",
   <span style={{ display: "inline-block", paddingLeft: 24 }}>Partners</span>
       </h1>
 
-      <p style={{ margin: "144px 0 0" }}>
-        Coming Soon.
+      <p style={{ margin: "124px 0 0" }}>
+        Patient capital. Practical support. Owner orientated.
       </p>
     </main>
   );
