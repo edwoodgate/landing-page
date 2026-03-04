@@ -91,7 +91,7 @@ textAlign: "center",
       minHeight: 70,
       marginBottom: 12,
       font: "inherit",
-      fontSize: 12
+      fontSize: 12,
       resize: "vertical",
     }}
   />
