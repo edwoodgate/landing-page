@@ -26,11 +26,11 @@ export default function Home() {
           margin: 0,
         }}
       >
-        Redgum Capital Partners
+        Coming Soon
       </h1>
 
       <p style={{ margin: "16px 0 0" }}>
-        Patient capital. Practical support. Owner orientated.
+        
       </p>
     </main>
   );
