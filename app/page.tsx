@@ -29,11 +29,11 @@ textAlign: "center",
         className={cinzel.className}
         style={{ fontSize: 36, fontWeight: 400, margin: 0 }}
       >
-        Coming Soon
+        Redgum Capital Partners
       </h1>
 
       <p style={{ margin: "16px 0 0" }}>
-        PC.
+        Comnig Soon.
       </p>
     </main>
   );
