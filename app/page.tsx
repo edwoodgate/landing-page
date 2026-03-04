@@ -13,14 +13,13 @@ export default function Home() {
         padding: "48px 24px",
         maxWidth: 960,
         margin: "0 auto",
-        background: "#ffffff",
+        background: "linear-gradient(to bottom, #2B2F38 0%, #2B2F38 50%, #FFFFFF 50%, #FFFFFF 100%)",
         color: "#000000",
         fontFamily:
           '"Segoe UI Variable Display", "Segoe UI", system-ui, -apple-system, Arial, sans-serif',
         fontWeight: 300,
         fontSize: 14,
         lineHeight: 1.5,
-        background: "linear-gradient(to bottom, #2B2F38 0%, #2B2F38 50%, #FFFFFF 50%, #FFFFFF 100%)",
         alignItems: "center",
 textAlign: "center",
       }}
