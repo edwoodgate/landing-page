@@ -20,6 +20,7 @@ export default function Home() {
         fontWeight: 300,
         fontSize: 14,
         lineHeight: 1.5,
+        background: "linear-gradient(to bottom, #2B2F38 0%, #2B2F38 50%, #FFFFFF 50%, #FFFFFF 100%)",
         alignItems: "center",
 textAlign: "center",
       }}
