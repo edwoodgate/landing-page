@@ -20,6 +20,8 @@ export default function Home() {
         fontWeight: 300,
         fontSize: 14,
         lineHeight: 1.5,
+        alignItems: "center",
+textAlign: "center",
       }}
     >
       <h1
