@@ -36,6 +36,85 @@ textAlign: "center",
       <p style={{ margin: "124px 0 0" }}>
         Patient capital. Practical support. Owner orientated.
       </p>
+
+      <form
+  action="/api/enquiry"
+  method="POST"
+  style={{
+    marginTop: 28,
+    width: "100%",
+    maxWidth: 520,
+    background: "#FFFFFF",
+    borderRadius: 16,
+    padding: 16,
+    boxShadow: "0 8px 24px rgba(0,0,0,0.12)",
+  }}
+>
+  <input
+    name="name"
+    placeholder="Name"
+    required
+    style={{
+      width: "100%",
+      padding: "10px 12px",
+      borderRadius: 12,
+      border: "1px solid #E5E7EB",
+      marginBottom: 10,
+      font: "inherit",
+    }}
+  />
+
+  <input
+    name="email"
+    placeholder="Email"
+    type="email"
+    required
+    style={{
+      width: "100%",
+      padding: "10px 12px",
+      borderRadius: 12,
+      border: "1px solid #E5E7EB",
+      marginBottom: 10,
+      font: "inherit",
+    }}
+  />
+
+  <textarea
+    name="message"
+    placeholder="Message"
+    required
+    style={{
+      width: "100%",
+      padding: "10px 12px",
+      borderRadius: 12,
+      border: "1px solid #E5E7EB",
+      minHeight: 110,
+      marginBottom: 12,
+      font: "inherit",
+      resize: "vertical",
+    }}
+  />
+
+  {/* Honeypot (hidden) */}
+  <input name="company" style={{ display: "none" }} tabIndex={-1} autoComplete="off" />
+
+  <button
+    type="submit"
+    style={{
+      width: "100%",
+      padding: "10px 12px",
+      borderRadius: 12,
+      border: "none",
+      background: "#2B2F38",
+      color: "#FFFFFF",
+      fontWeight: 600,
+      cursor: "pointer",
+    }}
+  >
+    Send enquiry
+  </button>
+</form>
+
     </main>
   );
 }
