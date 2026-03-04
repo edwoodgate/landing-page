@@ -32,7 +32,7 @@ textAlign: "center",
         Redgum Capital Partners
       </h1>
 
-      <p style={{ margin: "16px 0 0" }}>
+      <p style={{ margin: "24px 0 0" }}>
         Coming Soon.
       </p>
     </main>
