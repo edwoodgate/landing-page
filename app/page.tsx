@@ -19,7 +19,7 @@ export default function Home() {
         fontFamily:
           '"Segoe UI Variable Display", "Segoe UI", system-ui, -apple-system, Arial, sans-serif',
         fontWeight: 300,
-        fontSize: 14,
+        fontSize: 18,
         lineHeight: 1.5,
         alignItems: "center",
 textAlign: "center",
@@ -27,13 +27,13 @@ textAlign: "center",
     >
       <h1
         className={cinzel.className}
-        style={{ fontSize: 36, fontWeight: 400, margin: 0 }}
+        style={{ fontSize: 36, fontWeight: 400, margin: 0, color: "#FFFFFF"  }}
       >
         Redgum Capital<br />
   <span style={{ display: "inline-block", paddingLeft: 24 }}>Partners</span>
       </h1>
 
-      <p style={{ margin: "96px 0 0" }}>
+      <p style={{ margin: "144px 0 0" }}>
         Coming Soon.
       </p>
     </main>
