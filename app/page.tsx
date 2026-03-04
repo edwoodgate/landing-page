@@ -1,3 +1,7 @@
+import { Cinzel } from "next/font/google";
+
+const cinzel = Cinzel({ subsets: ["latin"], weight: ["400"] });
+
 export default function Home() {
   return (
     <main
@@ -19,18 +23,14 @@ export default function Home() {
       }}
     >
       <h1
-        style={{
-          fontFamily: '"Felix Titling", "Times New Roman", serif',
-          fontSize: 36,
-          fontWeight: 400,
-          margin: 0,
-        }}
+        className={cinzel.className}
+        style={{ fontSize: 36, fontWeight: 400, margin: 0 }}
       >
         Coming Soon
       </h1>
 
       <p style={{ margin: "16px 0 0" }}>
-        
+        PC.
       </p>
     </main>
   );
