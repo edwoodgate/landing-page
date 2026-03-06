@@ -179,7 +179,7 @@ export default function Home() {
             maxWidth: 960,
             margin: "0 auto",
             display: "grid",
-            gridTemplateColumns: "repeat(3, minmax(0, 1fr))",
+            gridTemplateColumns: "1fr",
             gap: 16,
             fontSize: 13,
             lineHeight: 1.5,
