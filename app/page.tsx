@@ -73,7 +73,7 @@ export default function Home() {
           }}
         >
           <p style={{ margin: "0 0 28px" }}>
-            Patient capital. Practical support. Owner orientated.
+            Patient capital. Practical support. Owner orientated. <br />
           </p>
 
           <form
