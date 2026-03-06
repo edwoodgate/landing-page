@@ -90,7 +90,7 @@ export default function Home() {
               businesses take the next step. We invest with a long-term mindset, move quickly and
               confidentially, and enable management to scale their business. We bring our experience and
               support on automation, AI implementation, strategy, operations, sales, systems, talent and
-              acquisitions, while preserving what already makes businesses successful.
+              acquisitions, while preserving what already makes great businesses successful.
           </p>
           
           <form
