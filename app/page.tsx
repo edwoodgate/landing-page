@@ -167,7 +167,7 @@ export default function Home() {
     {/* FOOTER / INFO SECTION */}
       <section
         style={{
-          backgroundColor: "#FFFFFF",
+          backgroundColor: "#F3F4F6",
           color: "#000000",
           width: "100%",
           padding: "24px 24px 48px",
@@ -192,7 +192,10 @@ export default function Home() {
       
           <div>
             <div style={{ fontWeight: 600, marginBottom: 8 }}>Address</div>
-            <div>Sydney, NSW</div>
+            <div>
+              Level 23, 52 Martin Place<br />
+              Sydney<br />
+              NSW 2000</div>
           </div>
       
           <div>
