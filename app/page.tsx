@@ -53,7 +53,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* BOTTOM (White) SECTION */}
+      {/* BOTTOM (White) SECTION - BODY 1 TEXT*/}
       <section
         style={{
           backgroundColor: "#FFFFFF",
@@ -76,6 +76,15 @@ export default function Home() {
             Patient capital. Practical support. Owner orientated. <br />
           </p>
 
+        {/* BOTTOM (White) SECTION - BODY 2 TEXT */}
+          <p style={{ margin: "0 0 28px", maxWidth: 760, fontSize: 14, color: "#111827" }}>
+            Redgum is an investment firm that partners with founders and management teams to help great
+            businesses take the next step. We invest with a long-term mindset, move quickly and
+            confidentially, and enable management to scale their business. We bring our experience and
+            support on automation, AI implementation, strategy, operations, sales, systems, talent and
+            acquisitions, while preserving what already makes businesses successful.
+          </p>
+          
           <form
             action="/api/enquiry"
             method="POST"
