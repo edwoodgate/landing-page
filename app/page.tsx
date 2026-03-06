@@ -163,6 +163,44 @@ export default function Home() {
           </form>
         </div>
       </section>
+
+    {/* FOOTER / INFO SECTION */}
+      <section
+        style={{
+          backgroundColor: "#FFFFFF",
+          color: "#000000",
+          width: "100%",
+          padding: "24px 24px 48px",
+          borderTop: "1px solid #E5E7EB",
+        }}
+      >
+        <div
+          style={{
+            maxWidth: 960,
+            margin: "0 auto",
+            display: "grid",
+            gridTemplateColumns: "repeat(3, minmax(0, 1fr))",
+            gap: 16,
+            fontSize: 13,
+            lineHeight: 1.5,
+          }}
+        >
+          <div>
+            <div style={{ fontWeight: 600, marginBottom: 8 }}>Contact</div>
+            <div>enquiries@redgumcapital.com</div>
+          </div>
+      
+          <div>
+            <div style={{ fontWeight: 600, marginBottom: 8 }}>Address</div>
+            <div>Sydney, NSW</div>
+          </div>
+      
+          <div>
+            <div style={{ fontWeight: 600, marginBottom: 8 }}>Legal</div>
+            <div>© {new Date().getFullYear()} Redgum Capital Partners</div>
+          </div>
+        </div>
+      </section>
     </main>
   );
 }
